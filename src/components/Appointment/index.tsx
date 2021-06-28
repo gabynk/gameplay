@@ -16,8 +16,8 @@ export type GuildProps = {
     name: string;
     icon: string | null,
     owner: boolean;
-
 }
+
 export type AppointmentyProps = {
     id: string;
     guild: GuildProps;
